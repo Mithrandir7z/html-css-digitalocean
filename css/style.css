@@ -1,4 +1,67 @@
+/*COMMON*/
 .debug {
     height: 200px;
     background-color: coral;
 }
+
+
+
+/*INIZIO HEADER*/
+.wrapper_menu {
+    background-color: white;
+}
+
+.logo img {
+    max-width: 200px;
+    padding-top: 10px;
+}
+
+.menu_left nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.menu_left nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 78px;
+}
+
+.menu_left nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.menu_right nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.menu_right nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 78px;
+}
+
+.menu_right nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#blue_button {
+    padding: 7px;
+    border: solid #3d8dff 1px;
+    border-radius: 5px;
+    color: #3d8dff;
+}
+
+.burger_menu {
+    text-align: right;
+}
+
+.fa-bars {
+    line-height: 65px;
+}
+/*FINE HEADER*/
