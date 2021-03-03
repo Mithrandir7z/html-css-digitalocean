@@ -4,9 +4,19 @@
     background-color: coral;
 }
 
+.spaziatura_top {
+    padding-top: 30px;
+}
+
+.spaziatura_bottom {
+    padding-bottom: 30px;
+}
+/*FINE COMMON*/
 
 
 /*INIZIO HEADER*/
+
+/*inizio menu*/
 .wrapper_menu {
     background-color: white;
 }
@@ -64,4 +74,76 @@
 .fa-bars {
     line-height: 65px;
 }
+/*fine menu*/
+
+
+/*inizio jumbotron*/
+.jumbotron {
+    background-image: url("../img/ms-jumbo.jpg");
+}
+
+.jumbotron_left {
+    color: white;
+}
+
+.jumbotron_left h2, h1 {
+    font-size: 63px;
+    line-height: 43px;
+}
+
+.jumbotron_left p {
+    margin-top: 40px;
+}
+
+.jumbotron_right {
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.jumbotron_right span {
+    color: #3a8bff;
+}
+
+.jumbotron_right form {
+    width: 100%;
+}
+
+.style_form {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    border: solid rgb(230, 230, 230) 1px;
+}
+
+.submit_button {
+    padding: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #579aff;
+}
+
+.sign_up_google {
+    padding: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: white;
+}
+/*fine jumbotron*/
+
 /*FINE HEADER*/
