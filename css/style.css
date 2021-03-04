@@ -4,6 +4,10 @@
     background-color: coral;
 }
 
+.center {
+    text-align: center;
+}
+
 .spaziatura_top {
     padding-top: 30px;
 }
@@ -12,18 +16,21 @@
     padding-bottom: 30px;
 }
 
-.spaziatura_left {
-    padding-left: 100px;
-}
-
-.spaziatura_right {
-    padding-right: 100px;
-}
-
 .container {
     margin-left: auto;
     margin-right: auto;
 }
+
+ul {
+    list-style-type: none;
+}
+
+
+/* li {
+    margin-left: 20px;
+    line-height: 60px;
+}  */
+
 /*FINE COMMON*/
 
 
@@ -94,6 +101,7 @@
 /*inizio jumbotron*/
 .jumbotron {
     background-image: url("../img/ms-jumbo.jpg");
+    margin-bottom: 0;
 }
 
 .jumbotron_left {
@@ -113,7 +121,6 @@
     width: 100%;
     background-color: white;
     padding: 30px;
-    text-align: center;
     border-radius: 5px;
 }
 
@@ -160,9 +167,40 @@ input[type=text] {
     background-color: white;
 }
 
+.jumbotron_right_btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.jumbotron_right_btn img {
+    width: 30px;
+    height: auto;
+}
+
 .jumbotron_right p {
     padding-top: 20px;
 }
 /*fine jumbotron*/
 
 /*FINE HEADER*/
+
+
+
+/*INIZIO MAIN*/
+
+.wrapper_group {
+    background-color: #f3f5f9;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.group_list li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.bottom_nav a {
+    color: #579aff;
+}
+/*FINE MAIN*/
