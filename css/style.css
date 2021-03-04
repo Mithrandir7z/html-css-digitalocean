@@ -203,4 +203,19 @@ input[type=text] {
 .bottom_nav a {
     color: #579aff;
 }
+
+.group_list ul {
+    padding: 0;
+}
+
+
+/*inizio deploy and scale*/
+.deploy_and_scale {
+    margin-left: auto;
+    margin-right: auto;
+}
+/*fine deploy and scale*/
+.deploy_and_scale_description {
+    
+}
 /*FINE MAIN*/
