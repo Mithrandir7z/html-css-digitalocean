@@ -229,6 +229,9 @@ input[type=text] {
 
 
 /*inizio section designed_for_developers*/
+.designed_for_developers {
+    background-color: #f3f5f9;
+}
 
 .chevron-left {
     height: 117px;
@@ -244,6 +247,10 @@ input[type=text] {
     padding-top: 30%;
 }
 
+.slide {
+    padding-top: 20px;
+}
+
 .slide div {
     padding: 5px;
     background-color: #006aff;
@@ -256,7 +263,18 @@ input[type=text] {
     border: 1px solid #006aff;
     background-color: white;
 }
-
 /*fine section designed_for_developers*/
+
+
+/*inizio the features your business needs*/
+
+.wrapper_space {
+    padding-top: 40px;
+}
+
+.predictable_pricing a, .world_class_service a, .reliable_platform a {
+    color: #006aff;
+}
+/*fine the features your business needs*/
 
 /*FINE MAIN*/
