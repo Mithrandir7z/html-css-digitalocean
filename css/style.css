@@ -26,7 +26,8 @@ ul {
 }
 
 
-/* li {
+/* test 
+li {
     margin-left: 20px;
     line-height: 60px;
 }  */
@@ -227,8 +228,35 @@ input[type=text] {
 
 
 
-/*inizio section design_for_developers*/
+/*inizio section designed_for_developers*/
 
-/*fine section design_for_developers*/
+.chevron-left {
+    height: 117px;
+    text-align: right;
+    display: block;
+    padding-top: 30%;
+}
+
+.chevron-right {
+    height: 117px;
+    text-align: left;
+    display: block;
+    padding-top: 30%;
+}
+
+.slide div {
+    padding: 5px;
+    background-color: #006aff;
+    border: 1px solid #006aff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#particular {
+    border: 1px solid #006aff;
+    background-color: white;
+}
+
+/*fine section designed_for_developers*/
 
 /*FINE MAIN*/
