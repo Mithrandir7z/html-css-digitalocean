@@ -214,8 +214,21 @@ input[type=text] {
     margin-left: auto;
     margin-right: auto;
 }
-/*fine deploy and scale*/
+
 .deploy_and_scale_description {
-    
+    max-width: 100%;
 }
+/*fine deploy and scale*/
+
+.list_border {
+    padding-left: 8px;
+    border-left: 1px solid grey;
+}
+
+
+
+/*inizio section design_for_developers*/
+
+/*fine section design_for_developers*/
+
 /*FINE MAIN*/
