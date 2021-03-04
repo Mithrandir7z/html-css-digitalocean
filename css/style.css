@@ -11,6 +11,19 @@
 .spaziatura_bottom {
     padding-bottom: 30px;
 }
+
+.spaziatura_left {
+    padding-left: 100px;
+}
+
+.spaziatura_right {
+    padding-right: 100px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
 /*FINE COMMON*/
 
 
@@ -20,6 +33,7 @@
 .wrapper_menu {
     background-color: white;
 }
+
 
 .logo img {
     max-width: 200px;
@@ -100,6 +114,7 @@
     background-color: white;
     padding: 30px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .jumbotron_right span {
@@ -143,6 +158,10 @@ input[type=text] {
     border: solid 1px black;
     border-radius: 5px;
     background-color: white;
+}
+
+.jumbotron_right p {
+    padding-top: 20px;
 }
 /*fine jumbotron*/
 
