@@ -259,7 +259,7 @@ input[type=text] {
     display: inline-block;
 }
 
-#particular {
+.particular {
     border: 1px solid #006aff;
     background-color: white;
 }
@@ -276,5 +276,44 @@ input[type=text] {
     color: #006aff;
 }
 /*fine the features your business needs*/
+
+
+/*inizio service_your_customers*/
+
+.wrapper_service_your_customers {
+    background-color: #003fbb;
+}
+
+.service_your_customers {
+    background-color: #003fbb;
+    color: white;
+    margin-bottom: 23px;
+}
+
+.wrapper_row_single_code {
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+}
+
+.wrapper_col-table_code {
+    color: white;
+    margin-left: 12px;
+}
+
+.wrapper_col-table_city {
+    color: white;
+    text-align: left;
+}
+
+.wrapper_col-table_link {
+    text-align: right;
+    margin-right: 12px;
+}
+
+.wrapper_col-table_link a {
+    color: #4b92f5;
+}
+
+/*fine service_your_customers*/
 
 /*FINE MAIN*/
