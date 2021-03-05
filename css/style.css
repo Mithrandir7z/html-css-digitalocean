@@ -9,11 +9,11 @@
 }
 
 .spaziatura_top {
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .spaziatura_bottom {
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 .container {
@@ -358,3 +358,35 @@ input[type=text] {
 /*fine get_started_now*/
 
 /*FINE MAIN*/
+
+/*INIZIO FOOTER*/
+footer {
+    background-color: #031c4e;
+}
+
+.copyright p {
+    color: white;
+}
+
+.copyright ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.copyright li {
+    display: inline-block;
+}
+
+.copyright li a {
+    color: white;
+}
+
+
+.list_footer ul {
+    list-style-type: none;
+}
+
+.list_footer li a {
+    color: white;
+}
+/*FINE FOOTER*/
