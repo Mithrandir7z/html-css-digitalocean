@@ -259,7 +259,7 @@ input[type=text] {
     display: inline-block;
 }
 
-.particular {
+#particular {
     border: 1px solid #006aff;
     background-color: white;
 }
@@ -315,5 +315,46 @@ input[type=text] {
 }
 
 /*fine service_your_customers*/
+
+
+
+/*inizio development teams love digitalocean*/
+.immagine-sfondo {
+    text-align: center;
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.immagine-sfondo_text {
+    padding-top: 28px;
+}
+/*fine development teams love digitalocean*/
+
+/*inizio get_started_now*/
+#get_started_now {
+    background-color: #003fbb;
+}
+
+.text_get_started_now {
+    color: white;
+}
+
+.button_get_started_now {
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.button_get_started_now a {
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 13px;
+    padding-bottom: 15px;
+    padding-right: 13px;
+    border-radius: 5px;
+}
+/*fine get_started_now*/
 
 /*FINE MAIN*/
