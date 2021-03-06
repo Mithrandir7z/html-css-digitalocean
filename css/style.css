@@ -26,12 +26,6 @@ ul {
 }
 
 
-/* test 
-li {
-    margin-left: 20px;
-    line-height: 60px;
-}  */
-
 /*FINE COMMON*/
 
 
@@ -111,7 +105,7 @@ li {
 
 .jumbotron_left h2, h1 {
     font-size: 63px;
-    line-height: 43px;
+    line-height: 57px;
 }
 
 .jumbotron_left p {
@@ -324,8 +318,6 @@ input[type=text] {
     background-color: white;
     padding-top: 70px;
     padding-bottom: 70px;
-    padding-left: 70px;
-    padding-right: 70px;
 }
 
 .immagine-sfondo_text {
@@ -384,9 +376,14 @@ footer {
 
 .list_footer ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .list_footer li a {
     color: white;
+}
+
+.wrapper_col-table_city {
+    margin-left: 12px;
 }
 /*FINE FOOTER*/
